@@ -1,3 +1,8 @@
+/*
+Create an algorithm: there is a numerical array at the input,
+ it is necessary to output the elements of the array multiples of 3
+*/
+
 import java.util.Scanner;
 
 public class Array_multyples_for_3 {
