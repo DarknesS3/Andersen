@@ -25,7 +25,7 @@ int main() {
 	std::cout << std::endl;
 	std::cout << "\n\n\n\tArray elements multiple of 3:\n\n";
 	for(int j=0; j<a; j++)
-		if(!(array[j]%3))
+		if(array[j] !=0 && ((array[j]%3) == 0))
 			std::cout <<j<<".=" << array[j] <<", ";
 	getch();
 	return 0;
